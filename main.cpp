@@ -20,6 +20,9 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 	win = WinApp::GetInstance();
 	win->CreateGameWindow("LE2D_13_マツダ_マサツグ_AL3");
 	
+	//変更テスト
+
+
 	// DirectX初期化処理
 	dxCommon = DirectXCommon::GetInstance();
 	dxCommon->Initialize(win);
